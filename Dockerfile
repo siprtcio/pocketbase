@@ -5,4 +5,4 @@ RUN CGO_ENABLED=0 GOOS=linux go build cmd/main.go -a -installsuffix cgo -o app .
 
 EXPOSE 8080
 
-CMD ["/app"]
+CMD ["/go/src/github.com/siprtcio/pocketbase/app"]
