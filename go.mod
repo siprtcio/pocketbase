@@ -1,10 +1,10 @@
-module github.com/pocketbase/pocketbase
+module github.com/siprtcio/pocketbase
 
-go 1.18
+go 1.19
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
-	github.com/aws/aws-sdk-go v1.44.102
+	github.com/aws/aws-sdk-go v1.44.131
 	github.com/disintegration/imaging v1.6.2
 	github.com/domodwyer/mailyak/v3 v3.3.4
 	github.com/fatih/color v1.13.0
@@ -13,15 +13,16 @@ require (
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/labstack/echo/v5 v5.0.0-20220201181537-ed2888cfa198
-	github.com/mattn/go-sqlite3 v1.14.15
-	github.com/pocketbase/dbx v1.6.0
+	github.com/mattn/go-sqlite3 v1.14.16
+	github.com/pocketbase/dbx v1.7.0
+	github.com/pocketbase/pocketbase v0.7.10
 	github.com/spf13/cast v1.5.0
-	github.com/spf13/cobra v1.5.0
-	gocloud.dev v0.26.0
-	golang.org/x/crypto v0.0.0-20220919173607-35f4265a4bc0
-	golang.org/x/net v0.0.0-20220921155015-db77216a4ee9
-	golang.org/x/oauth2 v0.0.0-20220909003341-f21342109be1
-	modernc.org/sqlite v1.19.1
+	github.com/spf13/cobra v1.6.1
+	gocloud.dev v0.27.0
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0
+	golang.org/x/oauth2 v0.1.0
+	modernc.org/sqlite v1.19.4
 )
 
 require (
@@ -63,9 +64,9 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
-	golang.org/x/term v0.0.0-20220919170432-7a66f970e087 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.0.0-20220920022843-2ce7c2934d45 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
@@ -75,9 +76,9 @@ require (
 	google.golang.org/grpc v1.49.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
-	modernc.org/cc/v3 v3.39.0 // indirect
-	modernc.org/ccgo/v3 v3.16.9 // indirect
-	modernc.org/libc v1.19.0 // indirect
+	modernc.org/cc/v3 v3.40.0 // indirect
+	modernc.org/ccgo/v3 v3.16.13 // indirect
+	modernc.org/libc v1.21.4 // indirect
 	modernc.org/mathutil v1.5.0 // indirect
 	modernc.org/memory v1.4.0 // indirect
 	modernc.org/opt v0.1.3 // indirect
