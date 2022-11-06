@@ -90,6 +90,18 @@
                 >
                     <i class="ri-database-2-line" />
                 </a>
+
+                <a
+                                    href="/phonenumbers"
+                                    class="menu-item"
+                                    aria-label="PhoneNumbers"
+                                    use:link
+                                    use:active={{ path: "/settings/?.*", className: "current-route" }}
+                                    use:tooltip={{ text: "PhoneNumbers", position: "right" }}
+                                >
+                                    <i class="ri-tools-line" />
+                                </a>
+
                 <a
                     href="/users"
                     class="menu-item"
